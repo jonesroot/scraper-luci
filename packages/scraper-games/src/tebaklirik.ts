@@ -5,7 +5,7 @@ export let tebaklirikjson: TebakLirik[]
 export default async function tebaklirik (): Promise<TebakLirik> {
   if (!tebaklirikjson) {
     tebaklirikjson = await got(
-      'https://raw.githubusercontent.com/jonesroot/database/master/games/tebaklirik.json'
+      'https://raw.githubusercontent.com/jonesroot/database/main/games/tebaklirik.json'
     ).json()
   }
   return TebakLirikSchema.parse(
