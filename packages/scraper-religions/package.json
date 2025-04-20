@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-religions",
+    "name": "@jonesroot/scraper-religions",
     "version": "5.0.0",
     "description": "Religions scraper module",
     "main": "lib/cjs/index.js",
