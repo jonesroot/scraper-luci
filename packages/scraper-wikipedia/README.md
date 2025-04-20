@@ -1,17 +1,17 @@
 # Wikipedia Scraper
 Module to scrape content from Wikipedia
-[Documentation](https://bochilteam.github.io/scraper/modules/_bochilteam_scraper_wikipedia.html)
+[Documentation](https://jonesroot.github.io/scraper/modules/_bochilteam_scraper_wikipedia.html)
 
 ## Installation
 ```sh
-npm i @bochilteam/scraper-others
+npm i @jonesroot/scraper-others
 ```
 
 ## Usage 
 Example get information from [Wikipedia](https://www.wikipedia.org/) about Minecraft
 ```ts
 // Import module
-import { wikipedia } from '@bochilteam/scraper-wikipedia'
+import { wikipedia } from '@jonesroot/scraper-wikipedia'
 
 const data = await wikipedia('Minecraft', 'en') // 'en' as lang
 console.log(data) // JSON
