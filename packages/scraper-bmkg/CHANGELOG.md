@@ -1,4 +1,4 @@
-# @bochilteam/scraper-bmkg
+# @jonesroot/scraper-bmkg
 
 ## 1.0.2
 
