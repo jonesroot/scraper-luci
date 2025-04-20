@@ -1,4 +1,4 @@
-# @bochilteam/scraper-games
+# @jonesroot/scraper-games
 
 ## 1.0.2
 
