@@ -1,0 +1,19 @@
+name: Node.js Package
+
+on: [push, pull_request]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository ..
+        uses: actions/checkout@v4
+      - name: Setup Node ..
+        uses: actions/setup-node@v4.4.0
+        with:
+          node-version: "20.18.0"
+      - run: npm install
+      - name: Publish to NPM
+        uses: JS-DevTools/npm-publish@v3.1.1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
