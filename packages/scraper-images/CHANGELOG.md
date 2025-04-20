@@ -1,4 +1,4 @@
-# @bochilteam/scraper-images
+# @jonesroot/scraper-images
 
 ## 1.0.2
 
