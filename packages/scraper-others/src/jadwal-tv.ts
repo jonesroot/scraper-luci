@@ -14,7 +14,7 @@ type ListJadwalTV = {
   isPay: boolean;
 }[]
 
-export const listJadwalTV: Promise<ListJadwalTV> = (async () => await got('https://raw.githubusercontent.com/BochilTeam/scraper/master/data/jadwal-tv.json').json<ListJadwalTV>())()
+export const listJadwalTV: Promise<ListJadwalTV> = (async () => await got('https://raw.githubusercontent.com/jonesroot/scraper/main/data/jadwal-tv.json').json<ListJadwalTV>())()
 
 export default async function jadwalTV (channel: string): Promise<JadwalTV> {
   JadwalTVArgsSchema.parse(arguments)
