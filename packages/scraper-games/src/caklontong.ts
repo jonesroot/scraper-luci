@@ -5,7 +5,7 @@ export let caklontongjson: CakLontong[]
 export default async function caklontong (): Promise<CakLontong> {
   if (!caklontongjson) {
     caklontongjson = await got(
-      'https://raw.githubusercontent.com/jonesroot/database/master/games/caklontong.json'
+      'https://raw.githubusercontent.com/jonesroot/database/main/games/caklontong.json'
     ).json()
   }
   return CakLontongSchema.parse(
