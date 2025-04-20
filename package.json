@@ -1,5 +1,6 @@
 {
     "name": "@jonesroot/scraper-root",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jonesroot/scraper.git#main"
