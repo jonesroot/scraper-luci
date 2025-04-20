@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-bmkg",
+    "name": "@jonesroot/scraper-bmkg",
     "version": "5.0.0",
     "description": "BMKG scraper module",
     "main": "lib/cjs/index.js",
