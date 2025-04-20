@@ -5,7 +5,7 @@ export let bucinjson: string[] = []
 export default async function bucin (): Promise<Bucin> {
   if (!bucinjson.length) {
     bucinjson = await got(
-      'https://raw.githubusercontent.com/jonesroot/database/master/kata-kata/bucin.json'
+      'https://raw.githubusercontent.com/jonesroot/database/main/kata-kata/bucin.json'
     ).json()
   }
   return BucinSchema.parse(
