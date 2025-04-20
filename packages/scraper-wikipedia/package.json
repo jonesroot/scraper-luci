@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-wikipedia",
+    "name": "@jonesroot/scraper-wikipedia",
     "version": "5.0.0",
     "description": "Wikipedia scraper module",
     "main": "lib/cjs/index.js",
