@@ -32,7 +32,7 @@
   "bugs": {
     "url": "https://github.com/jonesroot/scraper/issues"
   },
-  "homepage": "https://github.com/jonesroot/scraper/tree/master/packages/scraper-games#readme",
+  "homepage": "https://github.com/jonesroot/scraper/tree/main/packages/scraper-games#readme",
   "files": [
     "lib/**/*.js",
     "lib/**/**.d.ts",
