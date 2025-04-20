@@ -1,5 +1,5 @@
 {
-  "name": "@bochilteam/scraper-twitter",
+  "name": "@jonesroot/scraper-twitter",
   "version": "5.0.0",
   "description": "Twitter scraper module",
   "main": "lib/cjs/index.js",
