@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-news",
+    "name": "@jonesroot/scraper-news",
     "version": "5.0.0",
     "description": "News scraper module",
     "main": "lib/cjs/index.js",
