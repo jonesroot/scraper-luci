@@ -12,7 +12,7 @@ export default async function asmaulhusna (index?: number): Promise<AsmaulHusna>
 
   if (!asmaulhusnajson) {
     asmaulhusnajson = await got(
-      'https://raw.githubusercontent.com/BochilTeam/database/master/religi/asmaulhusna.json'
+      'https://raw.githubusercontent.com/jonesroot/database/main/religi/asmaulhusna.json'
     ).json()
   }
   if (!index) index = Math.floor(Math.random() * asmaulhusnajson.length)
