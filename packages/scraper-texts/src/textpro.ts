@@ -15,7 +15,7 @@ type TextProPostJSON = {
 
 const BASE_URL = 'https://textpro.me'
 
-export const textproList: Promise<TextProList[]> = (async () => got('https://raw.githubusercontent.com/BochilTeam/scraper/master/data/textpro.json').json<TextProList[]>())()
+export const textproList: Promise<TextProList[]> = (async () => got('https://raw.githubusercontent.com/jonesroot/scraper/main/data/textpro.json').json<TextProList[]>())()
 export default async function textpro (effect: string, params: string[] | string) {
   const list: TextProList[] = await textproList
   const textpro: TextProList | undefined = list.find(
