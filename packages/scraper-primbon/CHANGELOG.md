@@ -1,4 +1,4 @@
-# @bochilteam/scraper-primbon
+# @jonesroot/scraper-primbon
 
 ## 1.0.2
 
