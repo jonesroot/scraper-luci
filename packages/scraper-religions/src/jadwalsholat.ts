@@ -9,7 +9,7 @@ import {
   JadwalSholatSchema
 } from '../types/index.js'
 
-export const listJadwalSholat = (async () => got('https://github.com/BochilTeam/scraper/raw/master/data/jadwal-sholat.json').json<JadwalSholatItem[]>())()
+export const listJadwalSholat = (async () => got('https://github.com/jonesroot/scraper/raw/main/data/jadwal-sholat.json').json<JadwalSholatItem[]>())()
 
 /**
  * Scrape from https://www.jadwalsholat.org/
