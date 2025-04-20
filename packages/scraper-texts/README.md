@@ -1,5 +1,5 @@
 # Texts Scraper
-Texts scraper or Fetcher texts data from [texts databases](https://github.com/BochilTeam/database/tree/master/kata-kata)
+Texts scraper or Fetcher texts data from [texts databases](https://github.com/jonesroot/database/tree/main/kata-kata)
 
 ## Installation
 ```sh
