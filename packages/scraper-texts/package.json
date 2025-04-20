@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-texts",
+    "name": "@jonesroot/scraper-texts",
     "version": "5.0.0",
     "description": "Texts scraper module",
     "main": "lib/cjs/index.js",
