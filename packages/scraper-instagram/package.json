@@ -1,5 +1,5 @@
 {
-  "name": "@bochilteam/scraper-instagram",
+  "name": "@jonesroot/scraper-instagram",
   "version": "5.0.0",
   "description": "Instagram scraper module",
   "main": "lib/cjs/index.js",
