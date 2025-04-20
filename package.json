@@ -1,15 +1,15 @@
 {
-    "name": "@bochilteam/scraper-root",
+    "name": "@jonesroot/scraper-root",
     "private": true,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jonesroot/scraper.git"
     },
     "scripts": {
-        "compile": "turbo run compile --parallel --color --filter=!@bochilteam/scraper && turbo run compile --color --filter=@bochilteam/scraper",
-        "build:esm": "turbo run build:esm --parallel --color --filter=!@bochilteam/scraper && turbo run build:esm --color --filter=@bochilteam/scraper && npm run write:package",
-        "build:cjs": "turbo run build:cjs --parallel --color --filter=!@bochilteam/scraper && turbo run build:cjs --color --filter=@bochilteam/scraper && npm run write:package",
-        "build:types": "turbo run build:types --parallel --color --filter=!@bochilteam/scraper && turbo run build:types --color --filter=@bochilteam/scraper",
+        "compile": "turbo run compile --parallel --color --filter=!@jonesroot/scraper && turbo run compile --color --filter=@jonesroot/scraper",
+        "build:esm": "turbo run build:esm --parallel --color --filter=!@jonesroot/scraper && turbo run build:esm --color --filter=@jonesroot/scraper && npm run write:package",
+        "build:cjs": "turbo run build:cjs --parallel --color --filter=!@jonesroot/scraper && turbo run build:cjs --color --filter=@jonesroot/scraper && npm run write:package",
+        "build:types": "turbo run build:types --parallel --color --filter=!@jonesroot/scraper && turbo run build:types --color --filter=@jonesroot/scraper",
         "build:pages": "typedoc --tsconfig tsconfig.base.json",
         "write:package": "turbo run write:package",
         "test": "turbo run test --color",
