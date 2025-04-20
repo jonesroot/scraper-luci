@@ -4,23 +4,23 @@ Scraper is a Nodejs library with many built-in features that can get data from w
 ## Installation
 Install stable version of Scraper:
 ```sh
-npm i @bochilteam/scraper
+npm i @jonesroot/scraper
 ```
 
 Install latest version from github (not recommended)
 ```sh
-npm i github:bochilteam/scraper
+npm i github:jonesroot/scraper
 ```
 
 ## Usage 
 Here is an example of using Savefrom to download Facebook video
 ```ts
-import { savefrom } from '@bochilteam/scraper'
+import { savefrom } from '@jonesroot/scraper'
 
 const data = await savefrom('https://fb.watch/9WktuN9j-z/')
 console.log(data) // JSON
 ```
-[Documentation](https://bochilteam.github.io/scraper/)
+[Documentation](https://jonesroot.github.io/scraper/)
 
 ## Features
 - Simple and easy to use
