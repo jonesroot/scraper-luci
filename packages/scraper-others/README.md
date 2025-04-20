@@ -1,16 +1,16 @@
 # Others Scraper
 Other.
-[Documentation](https://bochilteam.github.io/scraper/modules/_bochilteam_scraper_others.html)
+[Documentation](https://jonesroot.github.io/scraper/modules/_bochilteam_scraper_others.html)
 
 ## Installation
 ```sh
-npm i @bochilteam/scraper-others
+npm i @jonesroot/scraper-others
 ```
 
 ## Usage 
 ```ts
 // Import module
-import { kodepos } from '@bochilteam/scraper-others'
+import { kodepos } from '@jonesroot/scraper-others'
 
 const data = await kodepos('Samboja')
 console.log(data) // JSON
