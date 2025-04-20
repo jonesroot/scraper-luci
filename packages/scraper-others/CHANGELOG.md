@@ -1,4 +1,4 @@
-# @bochilteam/scraper-others
+# @jonesroot/scraper-others
 
 ## 1.0.2
 
