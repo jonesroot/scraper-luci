@@ -5,7 +5,7 @@ export let asahotakjson: AsahOtak[]
 export default async function asahotak (): Promise<AsahOtak> {
   if (!asahotakjson) {
     asahotakjson = await got(
-      'https://raw.githubusercontent.com/jonesroot/database/master/games/asahotak.json'
+      'https://raw.githubusercontent.com/jonesroot/database/main/games/asahotak.json'
     ).json()
   }
   return AsahOtakSchema.parse(
