@@ -1,5 +1,5 @@
 {
-  "name": "@bochilteam/scraper-games",
+  "name": "@jonesroot/scraper-games",
   "version": "5.0.0",
   "description": "Games data's scraper module",
   "main": "lib/cjs/index.js",
