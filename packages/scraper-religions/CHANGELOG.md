@@ -1,4 +1,4 @@
-# @bochilteam/scraper-religions
+# @jonesroot/scraper-religions
 
 ## 1.0.2
 
