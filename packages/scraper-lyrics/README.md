@@ -1,14 +1,14 @@
 # Lyrics Scraper
-[Documentation](https://bochilteam.github.io/scraper/modules/_bochilteam_scraper_lyrics.html)
+[Documentation](https://jonesroot.github.io/scraper/modules/_bochilteam_scraper_lyrics.html)
 ## Installation
 ```sh
-npm i @bochilteam/scraper-lyrics
+npm i @jonesroot/scraper-lyrics
 ```
 
 ## Usage Example
 ```ts
 // Import module
-import { lyrics, lyricsv2 } from '@bochilteam/scraper-lyrics'
+import { lyrics, lyricsv2 } from '@jonesroot/scraper-lyrics'
 
 const data = await lyrics('Bohemian Rhapsody')
 console.log(data) // JSON
