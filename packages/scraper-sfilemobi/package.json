@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-sfilemobi",
+    "name": "@jonesroot/scraper-sfilemobi",
     "version": "5.0.0",
     "description": "sfilemobi scraper module",
     "main": "lib/cjs/index.js",
