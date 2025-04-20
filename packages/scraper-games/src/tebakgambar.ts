@@ -5,7 +5,7 @@ export let tebakgambarjson: TebakGambar[]
 export default async function tebakgambar (): Promise<TebakGambar> {
   if (!tebakgambarjson) {
     tebakgambarjson = await got(
-      'https://raw.githubusercontent.com/jonesroot/database/master/games/tebakgambar.json'
+      'https://raw.githubusercontent.com/jonesroot/database/main/games/tebakgambar.json'
     ).json()
   }
   return TebakGambarSchema.parse(
