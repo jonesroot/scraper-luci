@@ -1,5 +1,5 @@
 {
-  "name": "@bochilteam/scraper-youtube",
+  "name": "@jonesroot/scraper-youtube",
   "version": "5.0.0",
   "description": "Youtube scraper module",
   "main": "lib/cjs/index.js",
