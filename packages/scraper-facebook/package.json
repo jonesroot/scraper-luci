@@ -1,5 +1,5 @@
 {
-  "name": "@bochilteam/scraper-facebook",
+  "name": "@jonesroot/scraper-facebook",
   "version": "5.0.0",
   "description": "Facebook scraper module",
   "main": "lib/cjs/index.js",
