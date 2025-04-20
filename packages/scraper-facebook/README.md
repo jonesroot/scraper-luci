@@ -1,17 +1,17 @@
 # Facebook Scraper
 Module to download content from Facebook
-[Documentation](https://bochilteam.github.io/scraper/modules/_bochilteam_scraper_facebook.html)
+[Documentation](https://jonesroot.github.io/scraper/modules/_bochilteam_scraper_facebook.html)
 
 ## Installation
 ```sh
-npm i @bochilteam/scraper-facaebook
+npm i @jonesroot/scraper-facaebook
 ```
 
 ## Usage 
 Example download Instagram video
 ```ts
 // import module
-import { facebookdl } from '@bochilteam/scraper-facebook'
+import { facebookdl } from '@jonesroot/scraper-facebook'
 
 const data = await facebookdl('https://fb.watch/9WktuN9j-z/')
 console.log(data) // JSON
