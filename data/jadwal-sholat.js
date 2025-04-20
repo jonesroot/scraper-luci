@@ -1,5 +1,5 @@
 const got = require('got')
-const cheerio = require('cheerio')
+const * as cheerio = require('cheerio');
 const fs = require('fs')
 
 const PATH = './jadwal-sholat.json'
