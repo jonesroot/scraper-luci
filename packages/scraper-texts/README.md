@@ -3,14 +3,14 @@ Texts scraper or Fetcher texts data from [texts databases](https://github.com/jo
 
 ## Installation
 ```sh
-npm i @bochilteam/scraper-texts
+npm i @jonesroot/scraper-texts
 ```
 
 ## Usage 
 Example convert text to/from Javanese alphabet
 ```ts
 // Import module
-import { latinToAksara, aksaraToLatin } from '@bochilteam/scraper-texts'
+import { latinToAksara, aksaraToLatin } from '@jonesroot/scraper-texts'
 
 // To Javanese alphabet
 const aksara = latinToAksara('Cepet go')
@@ -19,4 +19,4 @@ console.log(aksara)
 const latin = aksaraToLatin(aksara)
 console.log(result) // 'Cepet go'
 ```
-[Documentation](https://bochilteam.github.io/scraper/modules/_bochilteam_scraper_texts.html)
+[Documentation](https://jonesroot.github.io/scraper/modules/_bochilteam_scraper_texts.html)
