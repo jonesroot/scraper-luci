@@ -1,4 +1,4 @@
-# @bochilteam/scraper-texts
+# @jonesroot/scraper-texts
 
 ## 1.0.2
 
