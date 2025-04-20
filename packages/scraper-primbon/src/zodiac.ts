@@ -1,7 +1,7 @@
 import { Zodiac, ZodiacSchema } from '../types/index.js'
 
 export default function getZodiac (months: number, dates: number): Zodiac {
-  // https://github.com/Nurutomo/wabot-aq/blob/master/plugins/zodiac.js
+  // https://github.com/Nurutomo/wabot-aq/blob/main/plugins/zodiac.js
   const d = new Date(1970, months - 1, dates + 1)
   // https://www.primbon.com/zodiak.htm
   const zodiac: [string, Date][] = [
