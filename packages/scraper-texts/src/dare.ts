@@ -5,7 +5,7 @@ export let darejson: string[] = []
 export default async function dare (): Promise<Dare> {
   if (!darejson.length) {
     darejson = await got(
-      'https://raw.githubusercontent.com/BochilTeam/database/master/kata-kata/dare.json'
+      'https://raw.githubusercontent.com/jonesroot/database/main/kata-kata/dare.json'
     ).json()
   }
   return DareSchema.parse(
