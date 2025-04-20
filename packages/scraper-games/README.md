@@ -1,5 +1,5 @@
 # Games data Scraper
-Fetcher data from [games databases](https://github.com/BochilTeam/database/tree/master/games)
+Fetcher data from [games databases](https://github.com/jonesroot/database/tree/main/games)
 
 ## Installation
 ```sh
