@@ -1,5 +1,5 @@
 {
-  "name": "@bochilteam/scraper-googleit",
+  "name": "@jonesroot/scraper-googleit",
   "version": "5.0.0",
   "description": "GoogleIt scraper module",
   "main": "lib/cjs/index.js",
