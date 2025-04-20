@@ -1,16 +1,16 @@
 # Google It Scraper
 Module to scrape content from Google
-[Documentation](https://bochilteam.github.io/scraper/modules/_bochilteam_scraper_googleit.html)
+[Documentation](https://jonesroot.github.io/scraper/modules/_bochilteam_scraper_googleit.html)
 
 ## Installation
 ```sh
-npm i @bochilteam/scraper-tiktok
+npm i @jonesroot/scraper-tiktok
 ```
 
 ## Usage 
 ```ts
 // import module
-import { googleit } from '@bochilteam/scraper-googleit'
+import { googleit } from '@jonesroot/scraper-googleit'
 
 const data = await googleit('Minecraft')
 console.log(data) // JSON
