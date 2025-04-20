@@ -1,5 +1,5 @@
 {
-  "name": "@bochilteam/scraper-mediafire",
+  "name": "@jonesroot/scraper-mediafire",
   "version": "5.0.0",
   "description": "Mediafire scraper module",
   "main": "lib/cjs/index.js",
