@@ -1,4 +1,4 @@
-# [Scraper](https://github.com/BochilTeam/scraper)
+# [Scraper](https://github.com/jonesroot/scraper)
 All In One Scraper
 
 ## Installation
