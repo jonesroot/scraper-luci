@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-lyrics",
+    "name": "@jonesroot/scraper-lyrics",
     "version": "5.0.0",
     "description": "Lyrics scraper module",
     "main": "lib/cjs/index.js",
