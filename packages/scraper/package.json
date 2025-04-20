@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BochilTeam/scraper.git"
+    "url": "git+https://github.com/jonesroot/scraper.git"
   },
-  "author": "BochilTeam",
+  "author": "jonesroot",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/BochilTeam/scraper/issues"
+    "url": "https://github.com/jonesroot/scraper/issues"
   },
-  "homepage": "https://github.com/BochilTeam/scraper#readme",
+  "homepage": "https://github.com/jonesroot/scraper#readme",
   "keywords": [
     "scraper",
     "web scraping",
