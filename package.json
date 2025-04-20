@@ -3,7 +3,7 @@
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jonesroot/scraper.git"
+        "url": "git+https://github.com/jonesroot/scraper.git#main"
     },
     "scripts": {
         "compile": "turbo run compile --parallel --color --filter=!@jonesroot/scraper && turbo run compile --color --filter=@jonesroot/scraper",
