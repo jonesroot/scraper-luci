@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-primbon",
+    "name": "@jonesroot/scraper-primbon",
     "version": "5.0.0",
     "description": "Primbon scraper module",
     "main": "lib/cjs/index.js",
