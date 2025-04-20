@@ -1,5 +1,5 @@
 {
-    "name": "@bochilteam/scraper-images",
+    "name": "@jonesroot/scraper-images",
     "version": "5.0.0",
     "description": "Images scraper module",
     "main": "lib/cjs/index.js",
