@@ -1,4 +1,4 @@
-# @bochilteam/scraper-news
+# @jonesroot/scraper-news
 
 ## 1.0.2
 
