@@ -1,5 +1,5 @@
 {
-  "name": "@bochilteam/scraper-tiktok",
+  "name": "@jonesroot/scraper-tiktok",
   "version": "5.0.0",
   "description": "Tiktok scraper module",
   "main": "lib/cjs/index.js",
