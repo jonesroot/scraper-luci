@@ -3,16 +3,16 @@ All In One Scraper
 
 ## Installation
 ```sh
-npm i @bochilteam/scraper
+npm i @jonesroot/scraper
 ```
 
 ## Usage 
 Here is an example of using Savefrom to download Facebook video
 ```ts
 // Import module first
-import { snapsave } from '@bochilteam/scraper'
+import { snapsave } from '@jonesroot/scraper'
 
 const data = await snapsave('https://fb.watch/9WktuN9j-z/')
 console.log(data) // JSON
 ```
-[Documentation](https://bochilteam.github.io/scraper/)
+[Documentation](https://jonesroot.github.io/scraper/)
