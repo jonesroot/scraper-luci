@@ -5,7 +5,7 @@ export let truthjson: string[] = []
 export default async function truth (): Promise<Truth> {
   if (!truthjson.length) {
     truthjson = await got(
-      'https://raw.githubusercontent.com/BochilTeam/database/master/kata-kata/truth.json'
+      'https://raw.githubusercontent.com/jonesroot/database/main/kata-kata/truth.json'
     ).json()
   }
   return TruthSchema.parse(
